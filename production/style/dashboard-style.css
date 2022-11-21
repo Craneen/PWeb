@@ -1,0 +1,127 @@
+/*
+** Those class are for the display of the dashboard 
+*/
+.dashboard{
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 5px;
+}
+
+.dashboard > div{
+    overflow-y: scroll;
+    z-index: 0;
+    margin: auto;
+    max-width: 33vw;
+    min-width: 33vw;
+    aspect-ratio: 1 / 1;
+}
+
+.dashboard-advertisements-list{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.dashboard-companies-list{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.dashboard-user-list{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.offres-div-dashboard{
+    display:flex;
+    flex-flow: row nowrap;
+    z-index: 0;
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+    max-width: 80%;
+    aspect-ratio: 1 / 1;
+    background-color: #e9e977;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+    margin-bottom: 10px;
+}
+
+.companies-div-dashboard {
+    display:flex;
+    flex-flow: row nowrap;
+    z-index: 0;
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+    max-width: 80%;
+    aspect-ratio: 1 / 1;
+    background-color: #e9e977;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+    margin-bottom: 10px;
+}
+
+.user-div-dashboard {
+    display:flex;
+    flex-flow: row nowrap;
+    z-index: 0;
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+    max-width: 80%;
+    aspect-ratio: 1 / 1;
+    background-color: #e9e977;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+    margin-bottom: 10px;
+}
+
+.div_tq{
+    flex: 1;
+    max-width: calc(100% - 30px);
+    border: 1px solid black;
+}
+
+.div_uq {
+    flex: 1;
+    max-width: 30px;
+    padding: 1px;
+    border: 1px solid black;
+}
+
+.div_uq button {
+    
+    
+}
+
+
+.formular{
+    background-color: purple;
+    z-index: 0;
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #e9e977;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+    margin-bottom: 10px;
+}
+

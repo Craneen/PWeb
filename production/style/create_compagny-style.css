@@ -1,0 +1,15 @@
+/*
+** Those class are for the display of the creation formular, 
+*/
+.form-container-div {
+    z-index: 0;
+    padding: 10px;
+    width: fit-content;
+    aspect-ratio: 1 / 1;
+    background-color: #ffffa5;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+    margin: auto;
+}

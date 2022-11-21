@@ -1,0 +1,67 @@
+ .container{
+    margin : 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: calc(100vw - 10px);
+    gap: 5px;
+}
+.container > div {
+    flex-grow: 1 100%;
+}
+
+.container #company_info_div {
+    display: block;
+    z-index: 20;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 20vw;
+    max-height: 80vh;
+    min-height: 80vh;
+    background-color: #ffffa5;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+}
+
+.container #member_list_div {
+    display: block;
+    z-index: 20;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 20vw;
+    max-height: 80vh;
+    min-height: 80vh;
+    background-color: #ffffa5;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+    overflow-y: scroll;
+}
+.container #advertissement_list_div {
+    display: block;
+    z-index: 20;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 60vw;
+    max-height: 80vh;
+    min-height: 80vh;
+    background-color: #ffffa5;
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
+    border-bottom-right-radius: 60px 10px;
+    overflow-y: scroll;
+}
+
+

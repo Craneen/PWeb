@@ -1,0 +1,10 @@
+
+{
+    "db_url": "localhost",
+    "db_name": "jobboard",
+    "db_charset": "utf8",
+    "db_login": "littleredpanda",
+    "db_password": "Password123#@!",
+    "ext": "",
+    "key": ""
+}
